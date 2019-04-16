@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2011B93722655C4500E1D202 /* GTLRYouTubeQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2011B93022655C4500E1D202 /* GTLRYouTubeQuery.m */; };
+		2011B93822655C4500E1D202 /* GTLRYouTubeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2011B93122655C4500E1D202 /* GTLRYouTubeService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2011B93922655C4500E1D202 /* GTLRYouTubeObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2011B93222655C4500E1D202 /* GTLRYouTubeObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2011B93A22655C4500E1D202 /* GTLRYouTubeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2011B93322655C4500E1D202 /* GTLRYouTubeService.m */; };
+		2011B93B22655C4500E1D202 /* GTLRYouTubeQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2011B93422655C4500E1D202 /* GTLRYouTubeQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2011B93C22655C4500E1D202 /* GTLRYouTubeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2011B93522655C4500E1D202 /* GTLRYouTubeObjects.m */; };
+		2011B93D22655C4500E1D202 /* GTLRYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 2011B93622655C4500E1D202 /* GTLRYouTube.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBC13CFA7E5007E5E92 /* GTLRUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0C4FBA13CFA7E5007E5E92 /* GTLRUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBD13CFA7E5007E5E92 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
 		4F0C4FBF13CFA7E5007E5E92 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
@@ -402,6 +409,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2011B93022655C4500E1D202 /* GTLRYouTubeQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeQuery.m; sourceTree = "<group>"; };
+		2011B93122655C4500E1D202 /* GTLRYouTubeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeService.h; sourceTree = "<group>"; };
+		2011B93222655C4500E1D202 /* GTLRYouTubeObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeObjects.h; sourceTree = "<group>"; };
+		2011B93322655C4500E1D202 /* GTLRYouTubeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeService.m; sourceTree = "<group>"; };
+		2011B93422655C4500E1D202 /* GTLRYouTubeQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeQuery.h; sourceTree = "<group>"; };
+		2011B93522655C4500E1D202 /* GTLRYouTubeObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeObjects.m; sourceTree = "<group>"; };
+		2011B93622655C4500E1D202 /* GTLRYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTube.h; sourceTree = "<group>"; };
 		4F0C4FBA13CFA7E5007E5E92 /* GTLRUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLRUploadParameters.h; path = Objects/GTLRUploadParameters.h; sourceTree = "<group>"; };
 		4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRUploadParameters.m; path = Objects/GTLRUploadParameters.m; sourceTree = "<group>"; };
 		4F12027D11A4CA2F00BEB470 /* GTLROSXUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTLROSXUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -670,9 +684,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2011B92F22655C4500E1D202 /* YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				2011B93022655C4500E1D202 /* GTLRYouTubeQuery.m */,
+				2011B93122655C4500E1D202 /* GTLRYouTubeService.h */,
+				2011B93222655C4500E1D202 /* GTLRYouTubeObjects.h */,
+				2011B93322655C4500E1D202 /* GTLRYouTubeService.m */,
+				2011B93422655C4500E1D202 /* GTLRYouTubeQuery.h */,
+				2011B93522655C4500E1D202 /* GTLRYouTubeObjects.m */,
+				2011B93622655C4500E1D202 /* GTLRYouTube.h */,
+			);
+			name = YouTube;
+			path = GeneratedServices/YouTube;
+			sourceTree = "<group>";
+		};
 		32C88E010371C26100C91783 /* GTLR Source */ = {
 			isa = PBXGroup;
 			children = (
+				2011B92F22655C4500E1D202 /* YouTube */,
 				4F346DD20D7500C9006033E0 /* Common */,
 			);
 			name = "GTLR Source";
@@ -906,14 +936,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2011B93822655C4500E1D202 /* GTLRYouTubeService.h in Headers */,
 				F4469D7B1C40229D00BCFAA1 /* GTLRDefines.h in Headers */,
+				2011B93922655C4500E1D202 /* GTLRYouTubeObjects.h in Headers */,
 				F4469D7C1C40229D00BCFAA1 /* GTLRFramework.h in Headers */,
 				F4469D7F1C40229D00BCFAA1 /* GTLRUtilities.h in Headers */,
 				F4D9D5211D832DC7000EBBED /* GTLRDuration.h in Headers */,
 				F4469D801C40229D00BCFAA1 /* GTLRBatchQuery.h in Headers */,
 				F4A872551DAD1D8000D69E09 /* GTLRURITemplate.h in Headers */,
+				2011B93B22655C4500E1D202 /* GTLRYouTubeQuery.h in Headers */,
 				F4469D811C40229D00BCFAA1 /* GTLRBatchResult.h in Headers */,
 				F4469D821C40229D00BCFAA1 /* GTLRDateTime.h in Headers */,
+				2011B93D22655C4500E1D202 /* GTLRYouTube.h in Headers */,
 				F4469D831C40229D00BCFAA1 /* GTLRErrorObject.h in Headers */,
 				F4469D841C40229D00BCFAA1 /* GTLRObject.h in Headers */,
 				F4469D851C40229D00BCFAA1 /* GTLRQuery.h in Headers */,
@@ -1443,8 +1477,11 @@
 				F4469DA31C40229D00BCFAA1 /* GTLRRuntimeCommon.m in Sources */,
 				F4469DA41C40229D00BCFAA1 /* GTLRService.m in Sources */,
 				F4469DA51C40229D00BCFAA1 /* GTLRUploadParameters.m in Sources */,
+				2011B93722655C4500E1D202 /* GTLRYouTubeQuery.m in Sources */,
+				2011B93A22655C4500E1D202 /* GTLRYouTubeService.m in Sources */,
 				F4469DA61C40229D00BCFAA1 /* GTLRBase64.m in Sources */,
 				F4469DA71C40229D00BCFAA1 /* GTMSessionFetcher.m in Sources */,
+				2011B93C22655C4500E1D202 /* GTLRYouTubeObjects.m in Sources */,
 				F4D9D5291D833D7C000EBBED /* GTLRDuration.m in Sources */,
 				F4469DA81C40229D00BCFAA1 /* GTMSessionFetcherService.m in Sources */,
 				F4469DA91C40229D00BCFAA1 /* GTMSessionFetcherLogging.m in Sources */,
@@ -1843,6 +1880,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"GTLR_BUILT_AS_FRAMEWORK=1",
+					"DEBUG=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1864,6 +1905,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = "GTLR_BUILT_AS_FRAMEWORK=1";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
