@@ -14,6 +14,7 @@
 		2011B93B22655C4500E1D202 /* GTLRYouTubeQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2011B93422655C4500E1D202 /* GTLRYouTubeQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2011B93C22655C4500E1D202 /* GTLRYouTubeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2011B93522655C4500E1D202 /* GTLRYouTubeObjects.m */; };
 		2011B93D22655C4500E1D202 /* GTLRYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 2011B93622655C4500E1D202 /* GTLRYouTube.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BA779F2266B648001BE9D3 /* GTMSessionFetcherIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BA779E2266B648001BE9D3 /* GTMSessionFetcherIOS.framework */; };
 		4F0C4FBC13CFA7E5007E5E92 /* GTLRUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0C4FBA13CFA7E5007E5E92 /* GTLRUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBD13CFA7E5007E5E92 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
 		4F0C4FBF13CFA7E5007E5E92 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
@@ -192,13 +193,6 @@
 		F4469DA41C40229D00BCFAA1 /* GTLRService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22581384818E005AEFAA /* GTLRService.m */; };
 		F4469DA51C40229D00BCFAA1 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
 		F4469DA61C40229D00BCFAA1 /* GTLRBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F934E661512712100C4EA34 /* GTLRBase64.m */; };
-		F4469DA71C40229D00BCFAA1 /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE179F1C03DB5900A38758 /* GTMSessionFetcher.m */; };
-		F4469DA81C40229D00BCFAA1 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE17A31C03DB5900A38758 /* GTMSessionFetcherService.m */; };
-		F4469DA91C40229D00BCFAA1 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE17A11C03DB5900A38758 /* GTMSessionFetcherLogging.m */; };
-		F4469DAA1C40229D00BCFAA1 /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE17A51C03DB5900A38758 /* GTMSessionUploadFetcher.m */; };
-		F4469DAB1C40229D00BCFAA1 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE17991C03DB5900A38758 /* GTMGatherInputStream.m */; };
-		F4469DAC1C40229D00BCFAA1 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE179D1C03DB5900A38758 /* GTMReadMonitorInputStream.m */; };
-		F4469DAD1C40229D00BCFAA1 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE179B1C03DB5900A38758 /* GTMMIMEDocument.m */; };
 		F4469DBE1C40274400BCFAA1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DBD1C40274400BCFAA1 /* Security.framework */; };
 		F4469DC01C40275300BCFAA1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DBF1C40275300BCFAA1 /* SystemConfiguration.framework */; };
 		F4469DC21C40283B00BCFAA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DC11C40283B00BCFAA1 /* Foundation.framework */; };
@@ -416,6 +410,7 @@
 		2011B93422655C4500E1D202 /* GTLRYouTubeQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeQuery.h; sourceTree = "<group>"; };
 		2011B93522655C4500E1D202 /* GTLRYouTubeObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeObjects.m; sourceTree = "<group>"; };
 		2011B93622655C4500E1D202 /* GTLRYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLRYouTube.h; sourceTree = "<group>"; };
+		20BA779E2266B648001BE9D3 /* GTMSessionFetcherIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcherIOS.framework; path = Carthage/Build/iOS/GTMSessionFetcherIOS.framework; sourceTree = "<group>"; };
 		4F0C4FBA13CFA7E5007E5E92 /* GTLRUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLRUploadParameters.h; path = Objects/GTLRUploadParameters.h; sourceTree = "<group>"; };
 		4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRUploadParameters.m; path = Objects/GTLRUploadParameters.m; sourceTree = "<group>"; };
 		4F12027D11A4CA2F00BEB470 /* GTLROSXUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTLROSXUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -579,6 +574,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BA779F2266B648001BE9D3 /* GTMSessionFetcherIOS.framework in Frameworks */,
 				F4469DCD1C402B2B00BCFAA1 /* CoreGraphics.framework in Frameworks */,
 				F4469DCB1C402B1F00BCFAA1 /* UIKit.framework in Frameworks */,
 				F4469DC21C40283B00BCFAA1 /* Foundation.framework in Frameworks */,
@@ -884,6 +880,7 @@
 		F4A872741DAD1ED800D69E09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20BA779E2266B648001BE9D3 /* GTMSessionFetcherIOS.framework */,
 				F4B18FEA1F1005F400E55018 /* WatchKit.framework */,
 				F4A872771DAD1EE200D69E09 /* UIKit.framework */,
 				F4A872751DAD1ED800D69E09 /* Security.framework */,
@@ -1480,15 +1477,8 @@
 				2011B93722655C4500E1D202 /* GTLRYouTubeQuery.m in Sources */,
 				2011B93A22655C4500E1D202 /* GTLRYouTubeService.m in Sources */,
 				F4469DA61C40229D00BCFAA1 /* GTLRBase64.m in Sources */,
-				F4469DA71C40229D00BCFAA1 /* GTMSessionFetcher.m in Sources */,
 				2011B93C22655C4500E1D202 /* GTLRYouTubeObjects.m in Sources */,
 				F4D9D5291D833D7C000EBBED /* GTLRDuration.m in Sources */,
-				F4469DA81C40229D00BCFAA1 /* GTMSessionFetcherService.m in Sources */,
-				F4469DA91C40229D00BCFAA1 /* GTMSessionFetcherLogging.m in Sources */,
-				F4469DAA1C40229D00BCFAA1 /* GTMSessionUploadFetcher.m in Sources */,
-				F4469DAB1C40229D00BCFAA1 /* GTMGatherInputStream.m in Sources */,
-				F4469DAC1C40229D00BCFAA1 /* GTMReadMonitorInputStream.m in Sources */,
-				F4469DAD1C40229D00BCFAA1 /* GTMMIMEDocument.m in Sources */,
 				F4469DFA1C45742000BCFAA1 /* GTLRURITemplate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1879,11 +1869,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"GTLR_BUILT_AS_FRAMEWORK=1",
-					"DEBUG=1",
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1904,8 +1894,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				FRAMEWORK_VERSION = A;
-				GCC_PREPROCESSOR_DEFINITIONS = "GTLR_BUILT_AS_FRAMEWORK=1";
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
