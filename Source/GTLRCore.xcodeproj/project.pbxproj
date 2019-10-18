@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A8B186235A752F00D88B42 /* GTLR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DB41C40229D00BCFAA1 /* GTLR.framework */; };
+		20A8B187235A752F00D88B42 /* GTLR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4469DB41C40229D00BCFAA1 /* GTLR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20A8B193235A758600D88B42 /* GTLRYouTubeQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8B18C235A757600D88B42 /* GTLRYouTubeQuery.m */; };
+		20A8B194235A758600D88B42 /* GTLRYouTubeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8B18F235A757700D88B42 /* GTLRYouTubeService.m */; };
+		20A8B195235A758600D88B42 /* GTLRYouTubeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8B191235A757700D88B42 /* GTLRYouTubeObjects.m */; };
+		20A8B196235A759000D88B42 /* GTLRYouTubeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B18D235A757700D88B42 /* GTLRYouTubeService.h */; };
+		20A8B197235A759000D88B42 /* GTLRYouTubeObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B18E235A757700D88B42 /* GTLRYouTubeObjects.h */; };
+		20A8B198235A759000D88B42 /* GTLRYouTubeQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B190235A757700D88B42 /* GTLRYouTubeQuery.h */; };
+		20A8B199235A759000D88B42 /* GTLRYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B192235A757700D88B42 /* GTLRYouTube.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBC13CFA7E5007E5E92 /* GTLRUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0C4FBA13CFA7E5007E5E92 /* GTLRUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBD13CFA7E5007E5E92 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
 		4F0C4FBF13CFA7E5007E5E92 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
@@ -392,6 +401,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		20A8B188235A752F00D88B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4469D791C40229D00BCFAA1;
+			remoteInfo = GTLRiOSCore;
+		};
 		4F1AD9040B71604300DC0485 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
@@ -401,7 +417,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		20A8B18A235A752F00D88B42 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20A8B187235A752F00D88B42 /* GTLR.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		20A8B17E235A752100D88B42 /* GTLRYouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTLRYouTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A8B181235A752100D88B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A8B18C235A757600D88B42 /* GTLRYouTubeQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeQuery.m; sourceTree = "<group>"; };
+		20A8B18D235A757700D88B42 /* GTLRYouTubeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeService.h; sourceTree = "<group>"; };
+		20A8B18E235A757700D88B42 /* GTLRYouTubeObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeObjects.h; sourceTree = "<group>"; };
+		20A8B18F235A757700D88B42 /* GTLRYouTubeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeService.m; sourceTree = "<group>"; };
+		20A8B190235A757700D88B42 /* GTLRYouTubeQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLRYouTubeQuery.h; sourceTree = "<group>"; };
+		20A8B191235A757700D88B42 /* GTLRYouTubeObjects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLRYouTubeObjects.m; sourceTree = "<group>"; };
+		20A8B192235A757700D88B42 /* GTLRYouTube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLRYouTube.h; sourceTree = "<group>"; };
 		4F0C4FBA13CFA7E5007E5E92 /* GTLRUploadParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLRUploadParameters.h; path = Objects/GTLRUploadParameters.h; sourceTree = "<group>"; };
 		4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRUploadParameters.m; path = Objects/GTLRUploadParameters.m; sourceTree = "<group>"; };
 		4F12027D11A4CA2F00BEB470 /* GTLROSXUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTLROSXUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -517,6 +556,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20A8B17B235A752100D88B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A8B186235A752F00D88B42 /* GTLR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F14A9DA0B1276B70072EBB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -607,12 +654,14 @@
 		089C166AFE841209C02AAC07 /* GoogleBundle */ = {
 			isa = PBXGroup;
 			children = (
+				20A8B18B235A757600D88B42 /* YouTube */,
 				32C88E010371C26100C91783 /* GTLR Source */,
 				4FCC7A1B11EFD9C80097924C /* Tests */,
 				4FA9C7410B72AB1600DA5920 /* Test Tool */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				F4F407651C21C417001B1A59 /* Deps */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				20A8B17F235A752100D88B42 /* GTLRYouTube */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
 				F4A872741DAD1ED800D69E09 /* Frameworks */,
 				34AF73421FB4E3C80022335F /* Recovered References */,
@@ -666,8 +715,32 @@
 				F4A8723C1DAD1AA400D69E09 /* GTLR.framework */,
 				F4A8727D1DAD1FA000D69E09 /* GTLRtvOSUnitTests.xctest */,
 				F4B18FE41F10035400E55018 /* GTLRwatchOSCore.framework */,
+				20A8B17E235A752100D88B42 /* GTLRYouTube.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		20A8B17F235A752100D88B42 /* GTLRYouTube */ = {
+			isa = PBXGroup;
+			children = (
+				20A8B181235A752100D88B42 /* Info.plist */,
+			);
+			path = GTLRYouTube;
+			sourceTree = "<group>";
+		};
+		20A8B18B235A757600D88B42 /* YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				20A8B18C235A757600D88B42 /* GTLRYouTubeQuery.m */,
+				20A8B18D235A757700D88B42 /* GTLRYouTubeService.h */,
+				20A8B18E235A757700D88B42 /* GTLRYouTubeObjects.h */,
+				20A8B18F235A757700D88B42 /* GTLRYouTubeService.m */,
+				20A8B190235A757700D88B42 /* GTLRYouTubeQuery.h */,
+				20A8B191235A757700D88B42 /* GTLRYouTubeObjects.m */,
+				20A8B192235A757700D88B42 /* GTLRYouTube.h */,
+			);
+			name = YouTube;
+			path = GeneratedServices/YouTube;
 			sourceTree = "<group>";
 		};
 		32C88E010371C26100C91783 /* GTLR Source */ = {
@@ -873,6 +946,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		20A8B179235A752100D88B42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A8B199235A759000D88B42 /* GTLRYouTube.h in Headers */,
+				20A8B196235A759000D88B42 /* GTLRYouTubeService.h in Headers */,
+				20A8B197235A759000D88B42 /* GTLRYouTubeObjects.h in Headers */,
+				20A8B198235A759000D88B42 /* GTLRYouTubeQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F38F6A10B66E91D00B24B81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -992,6 +1076,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		20A8B17D235A752100D88B42 /* GTLRYouTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A8B185235A752100D88B42 /* Build configuration list for PBXNativeTarget "GTLRYouTube" */;
+			buildPhases = (
+				20A8B179235A752100D88B42 /* Headers */,
+				20A8B17A235A752100D88B42 /* Sources */,
+				20A8B17B235A752100D88B42 /* Frameworks */,
+				20A8B17C235A752100D88B42 /* Resources */,
+				20A8B18A235A752F00D88B42 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20A8B189235A752F00D88B42 /* PBXTargetDependency */,
+			);
+			name = GTLRYouTube;
+			productName = GTLRYouTube;
+			productReference = 20A8B17E235A752100D88B42 /* GTLRYouTube.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4F14A9DC0B1276B70072EBB8 /* GTLROSXUnitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F14A9DF0B1276B70072EBB8 /* Build configuration list for PBXNativeTarget "GTLROSXUnitTests" */;
@@ -1140,6 +1244,11 @@
 			attributes = {
 				LastUpgradeCheck = 1010;
 				TargetAttributes = {
+					20A8B17D235A752100D88B42 = {
+						CreatedOnToolsVersion = 11.0;
+						DevelopmentTeam = 52M9C6892K;
+						ProvisioningStyle = Automatic;
+					};
 					F4368F711B8233BF00E17643 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -1175,11 +1284,19 @@
 				F4368F711B8233BF00E17643 /* GTLRiOSUnitTests */,
 				F4A8727C1DAD1FA000D69E09 /* GTLRtvOSUnitTests */,
 				4F1AD9010B71603F00DC0485 /* OSXDevTool */,
+				20A8B17D235A752100D88B42 /* GTLRYouTube */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20A8B17C235A752100D88B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F14A9D80B1276B70072EBB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1283,6 +1400,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20A8B17A235A752100D88B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A8B193235A758600D88B42 /* GTLRYouTubeQuery.m in Sources */,
+				20A8B194235A758600D88B42 /* GTLRYouTubeService.m in Sources */,
+				20A8B195235A758600D88B42 /* GTLRYouTubeObjects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F14A9D90B1276B70072EBB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1557,6 +1684,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		20A8B189235A752F00D88B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4469D791C40229D00BCFAA1 /* GTLRiOSCore */;
+			targetProxy = 20A8B188235A752F00D88B42 /* PBXContainerItemProxy */;
+		};
 		4F1AD9050B71604300DC0485 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4F38F6A50B66E91D00B24B81 /* GTLROSXCore */;
@@ -1732,6 +1864,96 @@
 			};
 			name = Release;
 		};
+		20A8B183235A752100D88B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 52M9C6892K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = GTLRYouTube/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.GTLRYouTube;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20A8B184235A752100D88B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 52M9C6892K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = GTLRYouTube/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.GTLRYouTube;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4F14A9E00B1276B70072EBB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1838,6 +2060,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1850,6 +2073,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1858,6 +2082,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1870,6 +2095,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1978,6 +2204,15 @@
 			buildConfigurations = (
 				1DEB913F08733D840010E9CD /* Debug */,
 				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20A8B185235A752100D88B42 /* Build configuration list for PBXNativeTarget "GTLRYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A8B183235A752100D88B42 /* Debug */,
+				20A8B184235A752100D88B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
