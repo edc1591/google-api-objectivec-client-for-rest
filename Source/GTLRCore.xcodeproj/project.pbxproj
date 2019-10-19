@@ -12,9 +12,9 @@
 		20A8B193235A758600D88B42 /* GTLRYouTubeQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8B18C235A757600D88B42 /* GTLRYouTubeQuery.m */; };
 		20A8B194235A758600D88B42 /* GTLRYouTubeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8B18F235A757700D88B42 /* GTLRYouTubeService.m */; };
 		20A8B195235A758600D88B42 /* GTLRYouTubeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8B191235A757700D88B42 /* GTLRYouTubeObjects.m */; };
-		20A8B196235A759000D88B42 /* GTLRYouTubeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B18D235A757700D88B42 /* GTLRYouTubeService.h */; };
-		20A8B197235A759000D88B42 /* GTLRYouTubeObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B18E235A757700D88B42 /* GTLRYouTubeObjects.h */; };
-		20A8B198235A759000D88B42 /* GTLRYouTubeQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B190235A757700D88B42 /* GTLRYouTubeQuery.h */; };
+		20A8B196235A759000D88B42 /* GTLRYouTubeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B18D235A757700D88B42 /* GTLRYouTubeService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A8B197235A759000D88B42 /* GTLRYouTubeObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B18E235A757700D88B42 /* GTLRYouTubeObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A8B198235A759000D88B42 /* GTLRYouTubeQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B190235A757700D88B42 /* GTLRYouTubeQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20A8B199235A759000D88B42 /* GTLRYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A8B192235A757700D88B42 /* GTLRYouTube.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBC13CFA7E5007E5E92 /* GTLRUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0C4FBA13CFA7E5007E5E92 /* GTLRUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBD13CFA7E5007E5E92 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLRUploadParameters.m */; };
